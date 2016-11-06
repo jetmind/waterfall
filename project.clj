@@ -1,4 +1,4 @@
-(defproject jetmind/waterfall "0.1.0-SNAPSHOT"
+(defproject jetmind/waterfall "0.1.0"
   :description "Manifold utilities"
   :url "http://github.com/jetmind/waterfall"
   :license {:name "MIT License"
