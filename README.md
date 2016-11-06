@@ -6,7 +6,7 @@
 
 ## Usage
 
-```
+```clojure
 (require '[jetmind.waterfall :as w])
 
 (def s (w/sliding-buffer 10))
