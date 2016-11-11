@@ -13,7 +13,7 @@ Dependency: `[jetmind/waterfall "0.1.0"]`
 ```clojure
 (require '[jetmind.waterfall :as w])
 
-(def s (w/sliding-buffer 10))
+(def s (w/sliding-stream 10))
 ```
 
 Works pretty much as you would expect. `put!`'s always succeed (replacing oldest
